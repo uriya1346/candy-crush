@@ -1,0 +1,56 @@
+body{
+  background-color:black;
+  font-family: "Roboto";
+}
+
+.app{
+  display: flex;
+  padding: 30px;
+  margin: 0 auto;
+}
+.game{
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.game img{
+  width: 70px;
+  height: 70px;
+}
+.game img {
+  width: 70px;
+  height: 70px;
+}
+/* .score-board{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+ */
+.gradient-text {
+   background-color: #f3ec78;
+    background-image: linear-gradient(45deg, dodgerblue, purple, red);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    font-size: 10rem;
+}
+
+@media (max-width:1078px) {
+  .gradient-text {
+      font-size: 7rem;
+  }
+}
+@media (max-width:950px) {
+  .gradient-text {
+      font-size: 4rem;
+  }
+}
