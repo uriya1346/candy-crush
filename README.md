@@ -1,3 +1,3 @@
 # CandyCrush
-https://candycrush2.netlify.app/l
+netlify - https://candycrush2.netlify.app
 
